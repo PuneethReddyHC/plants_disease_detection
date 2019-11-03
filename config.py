@@ -1,7 +1,7 @@
 class DefaultConfigs(object):
     #1.string parameters
-    train_data = "./data/train/"
-    test_data = "./data/test/"
+    train_data = "PlantVillage/train/"
+    test_data = "PlantVillage/val/"
     val_data = "no"
     model_name = "resnet50"
     weights = "./checkpoints/"
